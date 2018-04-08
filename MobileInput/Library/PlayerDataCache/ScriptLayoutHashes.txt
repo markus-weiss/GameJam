@@ -1,4 +1,4 @@
-Android
+WebGL
 SceneListBegin?
 Assets/test_1.unity
 SceneListEnd?

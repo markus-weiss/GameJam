@@ -32,8 +32,6 @@ public class GyroControl : MonoBehaviour {
 
     private void Update()
     {
-        //gyro.enabled = true;
-        
         if (gyroEnabled)
         {
             transform.localRotation = gyro.attitude * rot;
