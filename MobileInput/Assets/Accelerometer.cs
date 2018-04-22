@@ -45,8 +45,8 @@ public class Accelerometer : MonoBehaviour {
         // Eher wie Gyro die letzte gemessene beschleunigung wird zur Bewegungsrichung und beschleunigung
         // Kann aprupt abgebrochen werden
         Vector3 dir = Vector3.zero;
-        dir.x = -Input.acceleration.y;
-        dir.z = Input.acceleration.x;
+        dir.x = Input.acceleration.y;
+        dir.z = -Input.acceleration.x;
         if (dir.sqrMagnitude > 1)
             dir.Normalize();
 
